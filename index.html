@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/KMS_Mydeen_Biriyani_Logo.png" type="image/png">
+    <title>KMS Hakkim Biriyani - Authentic Biriyani Experts</title>
+    <meta name="description" content="Experience authentic South Indian biriyani and traditional cuisine by KMS Mydeen Biriyani. Expert catering services for weddings, corporate events, and special occasions.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="nav-logo">
+                    <img src="/KMS_Mydeen_Biriyani_Logo.png" alt="KMS Mydeen Biriyani Logo" class="logo-img" >
+                    <div class="logo-text">
+                        <div class="logo-main">KMS HAKKIM</div>
+                        <div class="logo-sub">BIRIYANI FACTORY</div>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu">
+                    <button class="nav-link active" data-target="home">Home</button>
+                    <button class="nav-link" data-target="about">About</button>
+                    <button class="nav-link" data-target="menu">Menu</button>
+                    <button class="nav-link" data-target="gallery">Gallery</button>
+                    <button class="nav-link" data-target="services">Services</button>
+                    <button class="nav-link" data-target="clients">Clients</button>
+                    <button class="nav-link" data-target="contact">Contact</button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="nav-link-mobile active" data-target="home">Home</button>
+                <button class="nav-link-mobile" data-target="about">About</button>
+                <button class="nav-link-mobile" data-target="menu">Menu</button>
+                <button class="nav-link-mobile" data-target="gallery">Gallery</button>
+                <button class="nav-link-mobile" data-target="services">Services</button>
+                <button class="nav-link-mobile" data-target="clients">Clients</button>
+                <button class="nav-link-mobile" data-target="contact">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>Authentic Biriyani Experts</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="title-line">KMS HAKKIM</span>
+                <span class="title-main">BIRIYANI FACTORY</span>
+            </h1>
+            
+            <p class="hero-subtitle">Serving Traditional South Indian Flavors Since Generations</p>
+            
+            <p class="hero-description">
+                Experience the authentic taste of expertly crafted biriyani.
+            </p>
+            
+            <div class="hero-buttons">
+                <button class="elegant-button" data-target="menu">Explore Our Menu</button>
+                <button class="glass-button" data-target="services">Catering Services</button>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" data-target="about">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+            <div class="scroll-text">Scroll Down</div>
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Our Story</div>
+                <h2 class="section-title">Our <span class="gradient-text">Legacy</span></h2>
+                <p class="section-description">
+                    KMS Hakkim Biriyani Factory has been serving authentic South Indian cuisine with passion and expertise,
+                    carrying forward generations of culinary traditions that define true taste.
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img class="img" src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Traditional Indian Chef">
+                        <div class="image-badge">👨‍🍳</div>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h3 class="about-subtitle">Traditional Excellence</h3>
+                    <p class="about-paragraph">
+                        Founded by KMS Hakkim, KMS Mydeen our restaurant has become synonymous with authentic biriyani and traditional South Indian non-vegetarian dishes.
+                        Each recipe is carefully crafted using time-honored techniques passed down through generations.
+                    </p>
+                    <p class="about-paragraph">
+                        We source the finest ingredients, from premium basmati rice to authentic spices, ensuring every dish delivers
+                        an unforgettable culinary experience that celebrates the rich heritage of South Indian cuisine.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">35+</div>
+                            <div class="stat-title">Years of Excellence</div>
+                            <div class="stat-desc">Serving authentic flavors</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">10K+</div>
+                            <div class="stat-title">Happy Customers</div>
+                            <div class="stat-desc">Satisfied taste buds</div>
+                        </div>
+                    </div>
+
+                    <div class="feature-tags">
+                        <div class="feature-tag">
+                            <div class="feature-dot green"></div>
+                            <span>Fresh Ingredients</span>
+                        </div>
+                        <div class="feature-tag">
+                            <div class="feature-dot blue"></div>
+                            <span>Authentic Recipes</span>
+                        </div>
+                        <div class="feature-tag">
+                            <div class="feature-dot purple"></div>
+                            <span>Expert Chefs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Our Menu Collection</div>
+                <h2 class="section-title">Culinary <span class="gradient-text">Excellence</span></h2>
+                <p class="section-description">
+                    Discover our curated collection of authentic South Indian delicacies, each crafted with passion and traditional expertise.
+                </p>
+            </div>
+
+            <!-- Package Tabs -->
+            <div class="package-tabs">
+                <button class="package-tab active" data-package="grandwedding">
+                    <div class="package-icon">🍛</div>
+                    <div class="package-info">
+                        <div class="package-name">Grand Wedding Menu</div>
+                        <div class="package-desc">Our world-famous biriyani collection</div>
+                    </div>
+                </button>
+                <button class="package-tab" data-package="wedding">
+                    <div class="package-icon">🍛</div>
+                    <div class="package-info">
+                        <div class="package-name">Wedding Menu</div>
+                        <div class="package-desc">Our world-famous biriyani collection</div>
+                    </div>
+                </button>
+                <button class="package-tab" data-package="grandreception">
+                    <div class="package-icon">🍲</div>
+                    <div class="package-info">
+                        <div class="package-name">Grand Reception Menu</div>
+                        <div class="package-desc">Traditional curries from South India</div>
+                    </div>
+                </button>
+                <button class="package-tab" data-package="grandreceptionveg">
+                    <div class="package-icon">🍲</div>
+                    <div class="package-info">
+                        <div class="package-name">Grand Reception Menu VEG</div>
+                        <div class="package-desc">Traditional curries from South India</div>
+                    </div>
+                </button>
+                <button class="package-tab" data-package="reception">
+                    <div class="package-icon">🍲</div>
+                    <div class="package-info">
+                        <div class="package-name">Reception Menu</div>
+                        <div class="package-desc">Traditional curries from South India</div>
+                    </div>
+                </button>
+                <button class="package-tab" data-package="dinner">
+                    <div class="package-icon">🥘</div>
+                    <div class="package-info">
+                        <div class="package-name">Grand Dinner Menu</div>
+                        <div class="package-desc">Perfect starters to begin your meal</div>
+                    </div>
+                </button>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="menu-content">
+                <h3 class="menu-category-title" id="menuCategoryTitle">Menu for a Royal Wedding</h3>
+                <div class="menu-grid" id="menuGrid">
+                    <!-- Menu items will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Visual Delights</div>
+                <h2 class="section-title">Food <span class="gradient-text">Gallery</span></h2>
+                <p class="section-description">
+                    A visual journey through our exquisite culinary creations and dining experiences.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://t4.ftcdn.net/jpg/09/12/10/25/360_F_912102578_dpR2r8IstjbBzQWgn2dAegf6SE2gDPNT.jpg" alt="Chicken Biriyani">
+                    <div class="gallery-overlay">
+                        <h4>Chicken Biriyani</h4>
+                        <p>Our signature dish</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/040/985/899/small/ai-generated-indian-biryani-rice-professional-advertising-foodgraphy-photo.jpg" alt="Mutton Biriyani">
+                    <div class="gallery-overlay">
+                        <h4>Mutton Biriyani</h4>
+                        <p>Rich and aromatic</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.cookwithnabeela.com/wp-content/uploads/2024/03/ChickenChettinad.webp" alt="Chettinad Chicken">
+                    <div class="gallery-overlay">
+                        <h4>Chettinad Chicken</h4>
+                        <p>Spicy and flavorful</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://media.istockphoto.com/id/1334383300/photo/fish-biryani-spicy-and-delicious-malabar-biryani-or-hydrabadi-biryani-dum-biriyani.jpg?s=612x612&w=0&k=20&c=NHYmMWB3wFbILekgO0d9gEfDcOXTi-c9q-E0yT3Y9lU=" alt="Fish Biriyani">
+                    <div class="gallery-overlay">
+                        <h4>Fish Biriyani</h4>
+                        <p>Coastal flavors</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://sc0.blr1.cdn.digitaloceanspaces.com/article/146843-jnxhqckdaa-1598964061.jpg" alt="Fish Curry">
+                    <div class="gallery-overlay">
+                        <h4>Fish Curry</h4>
+                        <p>Traditional recipe</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/chicken-65-restaurant-style.jpg" alt="Chicken 65">
+                    <div class="gallery-overlay">
+                        <h4>Chicken 65</h4>
+                        <p>Crispy appetizer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Our Services</div>
+                <h2 class="section-title">Catering <span class="gradient-text">Excellence</span></h2>
+                <p class="section-description">
+                    Professional catering services for all your special occasions with authentic South Indian cuisine.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💒</div>
+                    <h3 class="service-title">Wedding Catering</h3>
+                    <p class="service-description">
+                        Make your special day unforgettable with our authentic biriyani and South Indian feast.
+                        Complete wedding catering solutions for all guest counts.
+                    </p>
+                    <ul class="service-features">
+                        <li>Customized menu planning</li>
+                        <li>Professional service staff</li>
+                        <li>Traditional presentation</li>
+                        <li>Flexible venue options</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3 class="service-title">Corporate Events</h3>
+                    <p class="service-description">
+                        Impress your clients and colleagues with our professional catering services for corporate events,
+                        meetings, and office celebrations.
+                    </p>
+                    <ul class="service-features">
+                        <li>Business lunch packages</li>
+                        <li>Meeting refreshments</li>
+                        <li>Office party catering</li>
+                        <li>Timely delivery service</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3 class="service-title">Special Occasions</h3>
+                    <p class="service-description">
+                        From birthday parties to family gatherings, we bring authentic flavors to celebrate your
+                        special moments with loved ones.
+                    </p>
+                    <ul class="service-features">
+                        <li>Birthday celebrations</li>
+                        <li>Anniversary dinners</li>
+                        <li>Festival feasts</li>
+                        <li>Family reunions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customers Section -->
+    <section id="clients" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Trusted by the Best</div>
+                <h2 class="section-title">Our<span class="gradient-text"> Clients</span></h2>
+                <p class="section-description">
+                    From private events to large-scale celebrations, leading companies choose us for our quality, consistency, and hospitality.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./images/client1.webp" alt="Chicken Biriyani">
+                    <div class="gallery-overlay">
+                        <h4>Govt of Tamil Nadu</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/client2.png" alt="Mutton Biriyani">
+                    <div class="gallery-overlay">
+                        <h4>BG Naidu Sweets</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/client3.jpg" alt="Chettinad Chicken">
+                    <div class="gallery-overlay">
+                        <h4>KMC Hospital</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/client4.png" alt="Fish Biriyani">
+                    <div class="gallery-overlay">
+                        <h4>Apollo Hospital</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/client5.png" alt="Fish Curry">
+                    <div class="gallery-overlay">
+                        <h4>Maharaja Silks</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Let's Connect</div>
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-description">
+                    Ready to experience authentic flavors? Contact us for orders, catering inquiries, or any questions about our services.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3 class="contact-title">Contact Information</h3>
+                        
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="contact-icon phone">
+                                    <i data-lucide="phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <p>+91 984424 22786<br>+91 98424 58555</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon email">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>info@kmsmydeenbiriyani.com<br>orders@kmsmydeenbiriyani.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon location">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Location</h4>
+                                    <p>No.8, Kems Town<br>Muthaliyar Chathiram, Trichy-01</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon hours">
+                                    <i data-lucide="clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Hours</h4>
+                                    <p>Mon-Sun: 11:00 AM - 11:00 PM<br>Catering: 24/7 with advance booking</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="social-card">
+                        <h3 class="social-title">Follow Our Journey</h3>
+                        <div class="social-links">
+                            <button class="social-btn facebook">
+                                <i data-lucide="facebook"></i>
+                            </button>
+                            <button class="social-btn instagram">
+                                <i data-lucide="instagram"></i>
+                            </button>
+                            <button class="social-btn twitter">
+                                <i data-lucide="twitter"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Send Us a Message</h3>
+                        
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="Your contact number" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="serviceType">Service Type *</label>
+                                <select id="serviceType" name="serviceType" required>
+                                    <option value="">Choose your service type</option>
+                                    <option value="food-order">Food Order</option>
+                                    <option value="wedding-catering">Wedding Catering</option>
+                                    <option value="corporate-event">Corporate Event</option>
+                                    <option value="special-occasion">Special Occasion</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="guestCount">Number of Guests</label>
+                                    <input type="number" id="guestCount" name="guestCount" placeholder="Expected guest count" min="1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="eventDate">Event Date</label>
+                                    <input type="date" id="eventDate" name="eventDate">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your requirements..." rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="form-submit-btn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading">Sending Message...</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <img src="/KMS_Mydeen_Biriyani_Logo.png" alt="KMS Mydeen Biriyani Logo">
+                        <div class="footer-brand">
+                            <div class="brand-name">KMS HAKKIM BIRIYANI FACTORY</div>
+                            <div class="brand-tagline">Authentic Biriyani Experts</div>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Serving authentic South Indian biriyani and traditional cuisine with passion and expertise.
+                        Experience the taste of generations with every bite.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#menu">Our Menu</a></li>
+                            <li><a href="#services">Services</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Wedding Catering</a></li>
+                            <li><a href="#services">Corporate Events</a></li>
+                            <li><a href="#services">Special Occasions</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li>+91 98424 22786</li>
+                            <li>info@kmsmydeenbiriyani.com</li>
+                            <li>No.8, Kems Town</li>
+                            <li>Muthaliyar Chathiram,Trichy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 KMS Hakkim Biriyani Factory. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <button class="social-btn facebook">
+                        <i data-lucide="facebook"></i>
+                    </button>
+                    <button class="social-btn instagram">
+                        <i data-lucide="instagram"></i>
+                    </button>
+                    <button class="social-btn twitter">
+                        <i data-lucide="twitter"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i data-lucide="check-circle" class="modal-icon success"></i>
+                <h3>Message Sent Successfully!</h3>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for contacting us. We'll get back to you soon with the best catering solutions for your needs.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error Modal -->
+    <div class="modal" id="errorModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i data-lucide="x-circle" class="modal-icon error"></i>
+                <h3>Error Sending Message</h3>
+            </div>
+            <div class="modal-body">
+                <p>There was an error sending your message. Please try again or contact us directly.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
